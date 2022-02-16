@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <div id="body"></div>
+    
+    <script src="temp.js"></script>
+    <input id="question" type="text" placeholder="Enter Question here">
+    <button id="enter" onclick="choiceGenerator()">Generate Choice</button>
+    <div id="output"></div> 
+    <button onclick = inputGenerator()>Generate Blankspace</button>
+    <ol id="questions"></ol>
+    <button id="finishUpload" onclick="store()">Finish</button>
+
+
+    <input type="text" id="retrieveKey"> 
+
+    <button id="survey-dispalay" onclick="displaySurvey()">Display</button>
+    <div id="displayArea"></div>
+</body>
+</html> 
